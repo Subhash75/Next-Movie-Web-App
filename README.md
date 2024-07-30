@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Website
 
-## Getting Started
+A movie website built using Next.js, TypeScript, Tailwind CSS, and Shadcn.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Autoplay on hover**: Autoplay on hover on larger screens.
+- **Autoplay when Movie Comes into View in Mobile**: Autoplay videos when they enter the viewport, implemented using the Intersection Observer API only in mobile view.
+- **Javascript based Media Query**: A media query built using JS using resize event which is also throttled.
+- **Loaders until videos are loaded**: Display loaders until a particular video is ready to be loaded on the UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pictures
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Desktop UI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![alt text](https://github.com/Subhash75/Next-Movie-Web-App/blob/master/public/images/projectss1.PNG?raw=true)
+![alt text](https://github.com/Subhash75/Next-Movie-Web-App/blob/master/public/images/projectss2.PNG?raw=true)
 
-## Learn More
+## Mobile UI
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![alt text](https://github.com/Subhash75/Next-Movie-Web-App/blob/master/public/images/projectss3.PNG?raw=true)
+![alt text](https://github.com/Subhash75/Next-Movie-Web-App/blob/master/public/images/projectss4.PNG?raw=true)
